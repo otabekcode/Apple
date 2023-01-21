@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  height: 44px;
+  background: #313233;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.ul {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  list-style-type: none;
+}
+.ul a {
+  color: aliceblue;
+  font-size: 12px;
+  font-family: "SF Pro Text", "Myriad Set Pro" "SF Pro Icons", "Helvetica Naue",
+    Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+.logo {
+  width: 44px;
+  height: 40px;
+  margin-left: 15rem;
+}
+/* NAVBAR END */
+
+/* HOME */
+.home {
+  width: 100%;
+  /* height: 93vh; */
+  /* background-color:springgreen; */
+  background: #fafafa;
+  text-align: center;
+}
+
+.home .h1 {
+  font-size: 50px;
+  padding-top: 40px;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Naue", Helvetica, Arial,
+    sans-serif;
+}
+
+.home .p {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.home .p2 a {
+  font-size: 21px;
+  margin: 15px;
+  text-decoration: none;
+  color: #0066c0;
+}
+
+.home .home_img {
+  height: 58vh;
+}
+.home .home_main2 {
+  width: 100%;
+  background: #000000;
+}
+.home .home_main3 {
+  /* background: springgreen; */
+  background: #fafafa;
+}
+.home .home_main3 .h2 {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Naue", Helvetica, Arial,
+    sans-serif;
+  font-size: 50px;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
+.home .home_main4 {
+  width: 100%;
+  height: 100vh;
+  /* background: aqua; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.home .home_main4 .home_boxs1 {
+  width: 49%;
+  height: 100vh;
+  /* background: springgreen; */
+  background: #000000;
+  color: white;
+
+}
+
+.home .home_main4 .home_boxs2 {
+  width: 49%;
+  height: 100vh;
+  /* background: yellow; */
+  background: #000000;
+  color: white;
+
+}
+
+.home .home_avatar {
+  width: 90%;
+}
+
+.home .home_main4 .home_boxs3 {
+  width: 49%;
+  height: 100vh;
+  /* background: springgreen; */
+}
+
+.home .home_main4 .home_boxs4 {
+  width: 49%;
+  height: 100vh;
+  /* background: springgreen; */
+}
